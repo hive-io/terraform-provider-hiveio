@@ -99,8 +99,8 @@ github.com/hashicorp/terraform-svchost v0.1.1 h1:EZZimZ1GxdqFRinZ1tpJwVxxt49xc/S
 github.com/hashicorp/terraform-svchost v0.1.1/go.mod h1:mNsjQfZyf/Jhz35v6/0LWcv26+X7JPS+buii2c9/ctc=
 github.com/hashicorp/yamux v0.1.2 h1:XtB8kyFOyHXYVFnwT5C3+Bdo8gArse7j2AQ0DA0Uey8=
 github.com/hashicorp/yamux v0.1.2/go.mod h1:C+zze2n6e/7wshOZep2A70/aQU6QBRWJO/G6FT1wIns=
-github.com/hive-io/hive-go-client v0.0.0-20250714163226-47e799705ac8 h1:iUQ60/4y0yB0BXZKr3n6OsJpbjISyBrDMs9s8V0rUTU=
-github.com/hive-io/hive-go-client v0.0.0-20250714163226-47e799705ac8/go.mod h1:jfG41eLShTgcsjolG2XGRholttJir15L5+Kx0KwN5Wo=
+github.com/hive-io/hive-go-client v0.0.0-20251103160717-d16af6541fec h1:ym9dQWF0sHWGfadtbsSxlmEE3wbH87L65pkfZdCrtqI=
+github.com/hive-io/hive-go-client v0.0.0-20251103160717-d16af6541fec/go.mod h1:sVJ0eAN2kBWDP3ehpOPQtWaaEh8YVi/bhsBJKg7fPsI=
 github.com/hpcloud/tail v1.0.0/go.mod h1:ab1qPbhIpdTxEkNHXyeSf5vhxWSCs/tWer42PpOxQnU=
 github.com/jhump/protoreflect v1.15.1 h1:HUMERORf3I3ZdX05WaQ6MIpd/NJ434hTp5YiKgfCL6c=
 github.com/jhump/protoreflect v1.15.1/go.mod h1:jD/2GMKKE6OqX8qTjhADU1e6DShO+gavG9e0Q693nKo=

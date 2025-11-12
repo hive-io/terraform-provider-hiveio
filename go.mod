@@ -7,7 +7,7 @@ toolchain go1.24.3
 require (
 	github.com/google/uuid v1.6.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.37.0
-	github.com/hive-io/hive-go-client v0.0.0-20250714163226-47e799705ac8
+	github.com/hive-io/hive-go-client v0.0.0-20251103160717-d16af6541fec
 )
 
 require (
