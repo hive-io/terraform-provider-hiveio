@@ -164,8 +164,12 @@ func guestFromResource(d *schema.ResourceData) rest.ExternalGuest {
 	if os, ok := d.GetOk("os"); ok {
 		guest.OS = os.(string)
 	}
-
-	guest.BrokerOptions.DefaultConnection = d.Get("broker_default_connection").(string)
+	if guest.BrokerOptions == nil {
+		guest.BrokerOptions = &rest.GuestBrokerOptions{}
+	}
+	if defaultConnection, ok := d.GetOk("broker_default_connection"); ok {
+		guest.BrokerOptions.DefaultConnection = defaultConnection.(string)
+	}
 	var connections []rest.GuestBrokerConnection
 	for i := 0; i < d.Get("broker_connection.#").(int); i++ {
 		prefix := fmt.Sprintf("broker_connection.%d.", i)
